@@ -1,0 +1,58 @@
+{
+  "feedinfo": {
+    "provider_url": "https://www.masergy.com", 
+    "display_name": "HAFNIUM IoCs", 
+    "name": "MasergyFeed", 
+    "tech_data": "No Information", 
+    "summary": "This feed contains a list of known IoC Hashes", 
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAAEFUExURUxpcQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFaOe9UAAABWdFJOUwDaAgwug4WGAQuXKoQodjZ04oosjeSQLTHgh/3m3jPcA5MH5/kG9yZzgIJdgTeyI9d9JBQiEnhsa7zpSML0u0mw874OvQ3qNV4pw5h+K1zWtNgYnRebnlQPSwAAAR5JREFUOMvNk9dywjAQRWVsE8vGhd57D6GX9JAC6b3s/39KLFywkeAZPWjv7j2zM5JWCO3VqjzULVHXK0ygy7WWJN4ZnM7ySzLUFpogaLc1kEsMoFAFcwWDZK8WaD9QJg4crAAoBygglfMCuRTVIAEWELJiQtoAhLgfiAt+X4qBDYi2iPlbRMObQDjqAyLgAIeOinh9JU0DacUDZMAFjlyZWftqngXkVRcQ3SKEXtdadPxmkaTZ++cXo/P21GnJF2dZUik2baBtJpenx0nePrrEJ0+ubsxi28r7HDR6c95/c/j8ugFcf6WHMHjE9PPi9w8YEjH5+lTYM6j2BhMzzH7G26Z0/DdDaKRNt8/x1Bih7veuSf/VEd79F/A+fMh/9CpUKESloscAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="
+  }, 
+  "reports": [
+    {
+      "title": "Masergy Report", 
+      "timestamp": 1564622361, 
+      "iocs": {
+        "ipv4": [
+          "103.77.192.219",
+          "104.140.114.110",
+          "104.250.191.110",
+          "108.61.246.56",
+          "149.28.14.163",      
+          "157.230.221.198",
+          "167.99.168.251",
+          "185.250.151.72",
+          "192.81.208.169",
+          "203.160.69.66",
+          "211.56.98.146",
+          "5.254.43.18",
+          "80.92.205.81"
+        ]
+      }, 
+      "iocs":{
+        "md5":[
+          "f557a178550733c229f1087f2396f782"
+        ]
+      },
+      "iocs":{
+        "query":[
+        {
+              "index_type": "events",
+                "search_query": "cb.urlver=1&q=process_name%3AC%3A%5CWindows%5Ctemp%5Cprocdump%20-accepteula%20-ma%20lsass.exe%20C%3A%5Cwindows%5Ctemp%5Clsass",
+                "search_query": "cb.urlver=1&q=path%3A%5Cinetpub%5Cwwwroot%5Caspnet_client%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cecp%5Cauth%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5Cauth%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5CCurrent%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5CCurrent%5Cscripts%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5CCurrent%5Cscripts%5Cpremium%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5C*%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5C*%5Cscripts%5C*.aspx",
+                "search_query": "cb.urlver=1&q=path%3A%5CFrontEnd%5CHttpProxy%5Cowa%5C*%5Cscripts%5Cpremium%5C*.aspx"
+        }
+        ]
+      },
+      "score": 100, 
+      "link": "https://www.masergy.com", 
+      "id": "9e22a7b21c23476c5128b38841c9f945"
+    }
+  ]
+}
